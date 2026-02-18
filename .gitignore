@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+B&Y - Frontend/node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+B&Y - Backend/target/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE Settings
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Environment Variables
+.env
+hash.txt
+
+# Local Data
+B&Y - Backend/uploads/
