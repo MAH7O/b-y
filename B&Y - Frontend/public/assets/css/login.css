@@ -1,0 +1,35 @@
+:root {
+    --primary-gradient: linear-gradient(135deg, #d4af37 0%, #c5a028 100%);
+    --glass-bg: rgba(20, 20, 20, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --bg-color: #121212;
+}
+body {
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+}
+.brand-name {
+    font-family: 'Bebas Neue', cursive;
+    color: #d4af37;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.tagline { color: #888; margin-bottom: 2rem; }
+.input-group { position: relative; margin-bottom: 1.5rem; }
+.input-group i { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: #d4af37; }
+.input-group input { width: 100%; padding: 12px 15px 12px 45px; background: rgba(0,0,0,0.3); border: 1px solid var(--glass-border); border-radius: 10px; color: white; }
+.login-btn { width: 100%; border: none; background: var(--primary-gradient); padding: 12px; border-radius: 10px; font-weight: bold; cursor: pointer; }
